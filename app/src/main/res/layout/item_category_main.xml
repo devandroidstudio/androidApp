@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    android:id="@+id/cardview_category"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:strokeWidth="1dp"
+    app:strokeColor="#E8E3E3"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="5dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+        <LinearLayout
+            android:paddingVertical="5dp"
+            android:paddingHorizontal="15dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/ic_launcher_foreground"
+                android:id="@+id/img_logo_category"
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+            <TextView
+                android:id="@+id/tv_name_category"
+                android:fontFamily="@font/aclonica"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:text="dog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+
+</com.google.android.material.card.MaterialCardView>

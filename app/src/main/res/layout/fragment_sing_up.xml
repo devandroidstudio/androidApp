@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_sing_in"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.SingUpFragment">
+    <TextView
+        android:layout_marginTop="100dp"
+        android:padding="10dp"
+        android:textSize="50sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/aclonica"
+        android:text="Create Account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputLayout
+            app:endIconTint="@color/black"
+            app:endIconMode="clear_text"
+            app:counterEnabled="true"
+            app:counterMaxLength="30"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:maxLength="30"
+                android:imeOptions="actionNext"
+                android:layout_margin="5dp"
+                android:background="@android:color/transparent"
+                android:id="@+id/edit_name_customer_sing_up"
+                android:inputType="text"
+                android:hint="Full Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="10dp"
+            app:endIconTint="@color/black"
+            app:endIconMode="clear_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:maxLength="30"
+                android:imeOptions="actionNext"
+                android:layout_margin="5dp"
+                android:background="@android:color/transparent"
+                android:id="@+id/edit_phone_sing_up"
+                android:inputType="number"
+                android:hint="Phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            app:endIconTint="@color/black"
+            app:endIconMode="clear_text"
+            app:endIconCheckable="true"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:background="@android:color/transparent"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                android:id="@+id/edit_email_customer_sing_up"
+                android:hint="Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            app:passwordToggleEnabled="true"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:background="@android:color/transparent"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:id="@+id/edit_password_customer_sing_up"
+                android:hint="Password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="38dp"
+        android:gravity="center"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textAlignment="center"
+            android:textSize="33sp"
+            android:layout_weight="1"
+            android:fontFamily="@font/baloo"
+            android:text="Sing Up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                app:fabCustomSize="@android:dimen/notification_large_icon_height"
+                android:src="@drawable/ic_baseline_arrow_forward_24"
+                android:id="@+id/fab_sing_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:fontFamily="@font/baloo"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:elevation="10dp"
+        android:id="@+id/tv_sing_in"
+        android:text="Sing In"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

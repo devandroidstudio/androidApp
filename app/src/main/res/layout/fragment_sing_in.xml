@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_sing_in"
+    tools:context=".Fragment.SingInFragment">
+
+    <TextView
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:layout_marginTop="100dp"
+        android:textSize="50sp"
+        android:fontFamily="@font/aclonica"
+        android:text="Welcome Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <LinearLayout
+        android:layout_marginTop="80dp"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputLayout
+            app:endIconTint="@color/black"
+            app:endIconMode="clear_text"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:imeOptions="actionNext"
+                android:layout_margin="5dp"
+                android:background="@android:color/transparent"
+                android:id="@+id/edit_email_customer_sing_in"
+                android:inputType="text"
+                android:hint="Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            app:passwordToggleEnabled="true"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:inputType="textPassword"
+                android:imeOptions="actionDone"
+                android:hint="Password"
+                android:id="@+id/edit_password_sing_in"
+                android:background="@android:color/transparent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+    <CheckBox
+        android:layout_marginStart="5dp"
+        android:buttonTint="@color/shrine_pink_100"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:id="@+id/cbx_rb_account"
+        android:text="Rb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textAlignment="center"
+            android:textSize="33sp"
+            android:layout_weight="1"
+            android:fontFamily="@font/baloo"
+            android:text="Sing In"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                app:elevation="10dp"
+                app:fabCustomSize="@android:dimen/notification_large_icon_height"
+                android:src="@drawable/ic_baseline_arrow_forward_24"
+                android:id="@+id/fab_sing_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:fontFamily="@font/baloo"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:elevation="10dp"
+        android:id="@+id/tv_sing_up"
+        android:text="Sing up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</LinearLayout>

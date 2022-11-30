@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Combat PC Gaming/.gradle/caches/transforms-3/46d15f5c58a469270eeba15db4463d05/transformed/appcompat-1.4.0/res/layout/support_simple_spinner_dropdown_item.xml" value="0.3625" />
+        <entry key="..\:/Users/Combat PC Gaming/.gradle/caches/transforms-3/b53f309841b6d61b5dabff9d023d3b64/transformed/core-1.7.0/res/layout/custom_dialog.xml" value="0.32222222222222224" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/drawable-v24/badge_backgroud.xml" value="0.2" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/drawable-v24/ctr_bg.xml" value="0.27685185185185185" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/drawable-v24/custom_button.xml" value="0.3635" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/drawable-v24/gb_indicator.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/drawable-v24/ic_baseline_favorite_detail.xml" value="0.318859649122807" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/drawable-v24/ic_baseline_location_on_24_main.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1962962962962963" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/drawable-v24/ic_search_black_24dp.xml" value="0.21944444444444444" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/drawable/badge_shape.xml" value="0.22314814814814815" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/drawable/bg_dialog.xml" value="0.1935185185185185" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/drawable/boder.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/drawable/custom_appbar_layout_admin.xml" value="0.1485" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/drawable/custom_body_detail.xml" value="0.18425925925925926" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/drawable/custom_buttom.xml" value="0.3635" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/drawable/custom_favorite.xml" value="0.318859649122807" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/drawable/custom_input.xml" value="0.318859649122807" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/drawable/custom_rbtn_favorite.xml" value="0.318859649122807" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/drawable/custom_textview.xml" value="0.2657407407407407" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/drawable/custom_toolbar.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/drawable/custome_cart.xml" value="0.318859649122807" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/drawable/customs_color_bottom_nav.xml" value="0.21944444444444444" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/drawable/ic_baseline_access_time_24.xml" value="0.1537037037037037" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.3365740740740741" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.23981481481481481" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/drawable/ic_baseline_logout_24.xml" value="0.3365740740740741" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.1925925925925926" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.3635" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/drawable/ic_baseline_person_pin_24.xml" value="0.318859649122807" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/drawable/item_main.xml" value="0.19444444444444445" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/drawable/rbtn_icon_favorite.xml" value="0.318859649122807" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/drawable/switch_thumb.xml" value="0.3625" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/drawable/switch_track.xml" value="0.3635" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/font/baloo.xml" value="0.19444444444444445" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/activity_admin.xml" value="0.22" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/activity_animal.xml" value="0.2" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/activity_animal_edit.xml" value="0.25" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/activity_cart.xml" value="0.25" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/activity_category.xml" value="0.264" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/activity_detail.xml" value="0.25" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/activity_detail_notification.xml" value="0.25" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/activity_detail_order.xml" value="0.32222222222222224" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/activity_detail_profile.xml" value="0.25" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/activity_detail_scheduling.xml" value="0.32222222222222224" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/activity_detial_profile.xml" value="0.32222222222222224" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/activity_dog.xml" value="0.3625" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/activity_edit.xml" value="0.264" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/activity_image.xml" value="0.30526315789473685" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/activity_information.xml" value="0.25" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/activity_infromation.xml" value="0.1" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/activity_intro.xml" value="0.1" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/activity_login.xml" value="0.3625" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/activity_main2.xml" value="0.33" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/activity_main3.xml" value="0.2" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/activity_maps.xml" value="0.32222222222222224" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/activity_scheduling.xml" value="0.2" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/activity_scheduling_acitivity.xml" value="0.18194444444444444" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/activity_sing_up.xml" value="0.22" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/activity_verification.xml" value="0.23277591973244147" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/cart_action_item.xml" value="0.33" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/cart_cation_item.xml" value="0.75" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/csutom_action_item_layout.xml" value="0.17083333333333334" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/custom_dialog_category.xml" value="0.31851851851851853" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/custom_dialog_profile.xml" value="0.32222222222222224" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/fragment_blank.xml" value="0.32222222222222224" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/fragment_note.xml" value="0.16" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/fragment_profile.xml" value="0.31958762886597936" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/fragment_search.xml" value="0.4" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/fragment_sing_in.xml" value="0.25" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/fragment_sing_up.xml" value="0.25" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/item_admin_edit.xml" value="0.16" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/item_animal.xml" value="0.33" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/item_cart.xml" value="0.25" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/item_category_animal.xml" value="0.32222222222222224" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/item_category_main.xml" value="0.33" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/item_favorite.xml" value="0.32222222222222224" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/item_main.xml" value="0.33" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/item_order.xml" value="0.25" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/item_photo.xml" value="0.22" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/item_product_admin.xml" value="0.33" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/item_profile.xml" value="0.4" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/item_scheduling.xml" value="0.33" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/layout_dialog.xml" value="0.33" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/layout_dialog_add_category.xml" value="0.264" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/layout_dialog_animal.xml" value="0.264" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/layout_dialog_hotels.xml" value="0.21296296296296297" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/layout_dialog_profile.xml" value="0.32222222222222224" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/layout_dialog_profile_edit.xml" value="0.32222222222222224" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/layout_dialog_scheduling.xml" value="0.32222222222222224" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/layout/layout_header.xml" value="0.33" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/menu/admin_menu.xml" value="0.22" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/menu/item_menu.xml" value="0.1" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/menu/main_menu.xml" value="0.25" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/menu/meni_main.xml" value="0.1" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/menu/menu_main.xml" value="0.4" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/menu/menu_popup.xml" value="0.3212962962962963" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/menu/menu_toolbar.xml" value="0.22" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/menu/menu_toolbar_animal.xml" value="0.264" />
+        <entry key="..\:/Users/Combat PC Gaming/AndroidStudioProjects/AppAnimals/app/src/main/res/menu/toolbar_product_admin.xml" value="0.22" />
+        <entry key="..\:/Users/vomin/Downloads/AppAnimals/app/src/main/res/drawable-v24/ic_baseline_favorite_detail.xml" value="0.3305" />
+        <entry key="..\:/Users/vomin/Downloads/AppAnimals/app/src/main/res/drawable/custom_favorite.xml" value="0.3305" />
+        <entry key="..\:/Users/vomin/Downloads/AppAnimals/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.3305" />
+        <entry key="..\:/Users/vomin/Downloads/AppAnimals/app/src/main/res/drawable/rbtn_icon_favorite.xml" value="0.3305" />
+        <entry key="..\:/Users/vomin/Downloads/AppAnimals/app/src/main/res/layout/activity_detail.xml" value="0.35555555555555557" />
+        <entry key="..\:/Users/vomin/Downloads/AppAnimals/app/src/main/res/layout/activity_main.xml" value="0.35555555555555557" />
+        <entry key="..\:/Users/vomin/Downloads/AppAnimals/app/src/main/res/layout/activity_main3.xml" value="0.35555555555555557" />
+        <entry key="..\:/Users/vomin/Downloads/AppAnimals/app/src/main/res/layout/fragment_home.xml" value="0.35555555555555557" />
+        <entry key="..\:/Users/vomin/Downloads/AppAnimals/app/src/main/res/layout/item_animal.xml" value="0.4" />
+        <entry key="..\:/Users/vomin/Downloads/AppAnimals/app/src/main/res/layout/item_category_main.xml" value="0.35555555555555557" />
+        <entry key="..\:/Users/vomin/Downloads/AppAnimals/app/src/main/res/layout/item_photo.xml" value="0.35555555555555557" />
+        <entry key="..\:/Users/vomin/Downloads/AppAnimals/app/src/main/res/menu/item_menu.xml" value="0.35555555555555557" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

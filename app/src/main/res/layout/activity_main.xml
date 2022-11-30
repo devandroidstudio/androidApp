@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Activity.MainActivity">
+    <androidx.viewpager2.widget.ViewPager2
+        android:clipToPadding="false"
+        android:id="@+id/viewpager2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <com.google.android.material.bottomappbar.BottomAppBar
+        app:hideOnScroll="true"
+        app:layout_scrollFlags="scroll|enterAlways"
+        android:backgroundTint="@color/bottombar"
+        android:id="@+id/bottomAppBar"
+        app:fabCradleMargin="5dp"
+        app:fabCradleRoundedCornerRadius="32dp"
+        app:fabCradleVerticalOffset="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        style="@style/Widget.MaterialComponents.BottomAppBar.Colored" >
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            app:itemTextColor="@color/customs_color_bottom_nav"
+            app:itemIconTint="@color/customs_color_bottom_nav"
+            android:background="@android:color/transparent"
+            android:layout_marginEnd="16dp"
+            android:id="@+id/bottomNavigation"
+            app:menu="@menu/item_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </com.google.android.material.bottomappbar.BottomAppBar>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        style="@style/Widget.MaterialComponents.FloatingActionButton"
+        android:tint="@color/white"
+        android:id="@+id/fab_cart"
+        android:focusable="true"
+        android:enabled="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@color/shrine_pink_100"
+        app:layout_anchor="@id/bottomAppBar"
+        app:srcCompat="@drawable/foot" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

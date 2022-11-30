@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    app:cardCornerRadius="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:background="@drawable/shape_login_panel"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.appbar.MaterialToolbar
+            app:titleTextColor="#5F4B8B"
+            app:titleCentered="true"
+            app:title="Insert into category"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"/>
+        <LinearLayout
+            android:weightSum="5"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout
+                app:counterEnabled="true"
+                app:counterMaxLength="40"
+                android:layout_weight="4"
+                app:boxStrokeColor="#E69A8D"
+                android:textColorHint="#5F4B8B"
+                app:hintTextColor="#5F4B8B"
+                android:layout_marginHorizontal="15dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/black"
+                android:id="@+id/name_category_edit"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Category Name">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:maxLength="40"
+                    android:imeOptions="actionNext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                app:boxStrokeColor="#E69A8D"
+                android:textColorHint="#5F4B8B"
+                app:hintTextColor="#5F4B8B"
+                android:layout_weight="1"
+                android:hint="Status"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <AutoCompleteTextView
+                    android:inputType="none"
+                    android:id="@+id/auto_insert_category_status_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_choose_image_category_admin"
+            android:textStyle="italic"
+            android:textColor="#5F4B8B"
+            android:text="Choose image"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageButton
+            android:scaleType="fitXY"
+            android:background="@android:color/transparent"
+            android:id="@+id/image_category_admin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:fontFamily="@font/aclonica"
+                android:textStyle="bold"
+                android:textColor="#5F4B8B"
+                android:id="@+id/btn_insert_category_edit"
+                android:text="Insert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Button
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:fontFamily="@font/aclonica"
+                android:textStyle="bold"
+                android:textColor="#5F4B8B"
+                android:id="@+id/btn_cancel_category_edit"
+                android:text="Cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

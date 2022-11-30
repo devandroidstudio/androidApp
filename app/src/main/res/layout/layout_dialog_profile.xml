@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/bg_dialog"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textColor="@color/white"
+        android:background="@color/purple_200"
+        android:text="Detailed Profile"
+        android:padding="12dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_name_detail_profile_admin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/baloo"
+            android:text="Name"
+            android:textSize="15sp" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:fontFamily="@font/baloo"
+            android:text="Email"
+            android:id="@+id/tv_email_detail_profile_admin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:fontFamily="@font/baloo"
+            android:text="Phone"
+            android:id="@+id/tv_phone_detail_profile_admin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_date_detail_profile_admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:text="Date"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/tv_role_profile_admin_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/baloo"
+            android:text="Role"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>

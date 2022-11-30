@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+        <item
+            android:transitionName="transition_product"
+            android:id="@+id/nav_dog"
+            android:icon="@drawable/dog_nav"
+            android:title="Dog" />
+        <item
+            android:transitionName="transition_product"
+            android:id="@+id/nav_cat"
+            android:icon="@drawable/cat"
+            android:title="Cat" />
+        <item
+            android:transitionName="transition_product"
+            android:id="@+id/nav_category"
+            android:icon="@drawable/ic_baseline_category_24"
+            android:title="Categories" />
+        <item
+            android:transitionName="transition_product"
+            android:id="@+id/nav_product"
+            android:icon="@drawable/gift"
+            android:title="Product" />
+
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:transitionName="transition_product"
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_baseline_person_24"
+                    android:title="Profile" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_baseline_logout_24"
+                    android:title="Home" />
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Scheduling">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:transitionName="transition_agenda"
+                android:id="@+id/nav_agenda"
+                android:icon="@drawable/programming"
+                android:title="Agenda" />
+            </group>
+        </menu>
+
+    </item>
+</menu>

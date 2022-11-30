@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.SearchFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <TextView
+            android:fontFamily="@font/baloo"
+            android:textSize="50dp"
+            android:textAlignment="center"
+            android:text="Scheduling"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:transitionName="procedure_scheduling_trans"
+            android:hint="Type Of Procedure"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <AutoCompleteTextView
+                android:id="@+id/type_of_procedure"
+                android:inputType="none"
+                android:textSize="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="10dp"
+            android:hint="Procedure"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <AutoCompleteTextView
+                android:id="@+id/procedure"
+                android:textSize="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:transitionName="name_animal_scheduling_admin"
+            android:id="@+id/name_animal_scheduling"
+            android:layout_marginTop="10dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Animal Name">
+            <com.google.android.material.textfield.TextInputEditText
+                android:textSize="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="10dp"
+            android:id="@+id/category_animal"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Kind">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textSize="10sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:hint="Sex"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp">
+                <AutoCompleteTextView
+                    android:id="@+id/sex_animal"
+                    android:inputType="none"
+                    android:textSize="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_marginStart="5dp"
+                android:layout_weight="1"
+
+                android:hint="Age"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp">
+                <AutoCompleteTextView
+                    android:inputType="number"
+                    android:id="@+id/age_animal"
+                    android:textSize="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="10"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout
+                android:transitionName="date_scheduling_admin"
+                android:layout_weight="8"
+                android:layout_marginTop="10dp"
+                android:id="@+id/date_picker_scheduling"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:hint="Date">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:textSize="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <ImageButton
+                android:paddingTop="10dp"
+                android:layout_weight="2"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:src="@drawable/date"
+                android:id="@+id/img_date_picker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="10"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout
+                android:transitionName="time_scheduling_admin"
+                android:layout_weight="8"
+                android:layout_marginTop="10dp"
+                android:id="@+id/time_picker_scheduling"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:hint="Time">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:textSize="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <ImageButton
+                android:paddingTop="10dp"
+                android:layout_weight="2"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_baseline_access_time_24"
+                android:id="@+id/img_time_picker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:id="@+id/btn_sing_up_scheduling"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/shrine_pink_100"
+
+            android:text="Save"
+            android:fontFamily="@font/aclonica"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+</ScrollView>
